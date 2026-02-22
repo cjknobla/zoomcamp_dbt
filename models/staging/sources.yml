@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw Data Sources for NYC Taxi Rides"
+    database: graphical-envoy-485414-a7 # GCP Project ID
+    schema: zoomcamp # GCP Dataset
+    tables:
+      - name: yellow_tripdata
+      - name: green_tripdata
