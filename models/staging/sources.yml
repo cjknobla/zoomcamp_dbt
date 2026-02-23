@@ -7,4 +7,6 @@ sources:
     schema: zoomcamp # GCP Dataset
     tables:
       - name: yellow_tripdata
+        description: Raw Yellow Taxi Trip Data
       - name: green_tripdata
+        description: Raw Green Taxi Trip Data
